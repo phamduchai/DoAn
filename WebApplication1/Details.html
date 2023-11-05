@@ -1,0 +1,161 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Chi tiết sản phẩm </title>
+    <link rel="stylesheet" href="DetailsCSS.css" />
+    <script src="https://kit.fontawesome.com/9954db1b5f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="wrapper_Detail">
+        <div class="row1">
+            <div class="ProductTitle">
+                <b> iPhone 14 Pro 128GB | Chính hãng VN/A </b>
+            </div>
+            <div class="slider">
+                <div class="list">
+                    <div class="item">
+                        <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:80/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone-15-pro-max_2__5.jpg" />
+                    </div>
+                    <div class="item">
+                        <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:80/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone-15-pro-max_5__1.jpg" />
+                    </div>
+                    <div class="item">
+                        <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:80/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone-15-pro-max_8__1.jpg" />
+                    </div>
+                    <div class="item">
+                        <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:80/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone-15-pro-max_10__1.jpg" />
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button id="prev"><</button>
+                    <button id="next">></button>
+                </div>
+                <ul class="dots">
+                    <li class="active"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <div class="ProductWrapper">
+                <div class="ProductInfo">
+                    <b> Thông tin sản phẩm </b>
+                    <ul>
+                        <li>
+                            Hàng chính hãng Apple Việt Nam, Mới
+                        </li>
+                        <li>
+                            Hộp sạc và tai nghe, Cáp Lightning, Sách hướng dẫn
+                        </li>
+                        <li>
+                            Bảo hành 24 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất.(xem chi tiết)
+                        </li>
+                        <li>
+                            Giá sản phẩm đã bao gồm VAT
+                        </li>
+                    </ul>
+                </div>
+                <div class="CityLocation">
+                    <select id="citySelect" class="citySelect">
+                        <option value="hanoi">Hà Nội</option>
+                        <option value="hochiminh">Hồ Chí Minh</option>
+                    </select>
+
+                    <select id="districtSelect">
+                    </select>
+                    <script src="test.js"></script>
+                </div>
+            </div>
+        </div>
+        <div class="row2">
+            <div class="price-buttons">
+                <div class="price-button" onclick="toggleSelection(this)">1 TB <br /> 33.900.000 </div>
+                <div class="price-button" onclick="toggleSelection(this)">512Gb <br /> 32.990.000 </div>
+                <div class="price-button" onclick="toggleSelection(this)">256 Gb <br /> 26.860.000 </div>
+            </div>
+
+            <div class="ColorTitle">
+                <b> Chọn màu để xem giá và chi nhánh có hàng </b>
+            </div>
+            <div class="color-buttons">
+                <div class="color-button" onclick="toggleSelection(this)">Đỏ</div>
+                <div class="color-button" onclick="toggleSelection(this)">Xanh</div>
+                <div class="color-button" onclick="toggleSelection(this)">Vàng</div>
+            </div>
+            <div class="button-container">
+                <button class="buy-now-button">Mua ngay</button>
+                <button class="cart-button">Giỏ hàng</button>
+                <button class="installment-button">Trả góp 0%</button>
+                <button class="installment-card-button">Trả góp qua thẻ</button>
+            </div>
+            <div class="Box-promotion">
+                <div class="promo-container">
+                    Ưu đãi thêm: Miễn phí vận chuyển cho đơn hàng trên 1 triệu đồng!
+                </div>
+                <div class="discount-container">
+                    <div class="discount-item">Giảm thêm tới 1% cho thành viên Smember (áp dụng tùy sản phẩm)</div>
+                    <div class="discount-item">Giảm ngay 50.000đ cho đơn từ 2.000.000 đồng khi thanh toán qua ShoppePay</div>
+                    <div class="discount-item">Kredivo Giảm thêm 5% tối đa 200.000đ khi thanh toán qua Kredivo</div>
+                    <div class="discount-item">VIB Mở thẻ tín dụng VIB - Nhận voucher 200.000đ mua hàng tại CellphoneS</div>
+                    <div class="discount-item">Giảm 500k đơn hàng từ 10 triệu</div>
+                    <div class="discount-item">Mở thẻ tín dụng HSBC - Nhận voucher đến 2.5 triệu mua hàng tại CellphoneS</div>
+                    <div class="discount-item">Nhập mã “TUUTRUONG” - Giảm 30% khi đăng ký gói ELSA PRO từ 6 tháng trở lên</div>
+                </div>
+            </div>
+            <div style="border: 1px solid #ccc; padding: 10px; display: inline-block; margin-top: 15px; border-radius: 15px;">
+                <i class="fa-solid fa-shield" style="vertical-align: middle;"></i>
+                Bảo vệ sản phẩm toàn diện với dịch vụ bảo hành mở rộng <a href="#">Xem chi tiết</a>
+                (Khách hàng đăng ký thông tin để được hỗ trợ tư vấn và thanh toán tại cửa hàng nhanh nhất, số tiền phải thanh toán chưa bao gồm giá trị của gói bảo hành mở rộng)
+                <div>
+                    <label class="custom-checkbox">
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                        1 đổi 1 VIP 6 tháng: Đổi máy mới tương đương khi có lỗi từ NSX trong 6 tháng
+                    </label>
+                    <label class="custom-checkbox">
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                        S24+ 12 tháng: Đổi sản phẩm tương đương hoặc miễn phí chi phí sửa chữa nếu có lỗi của NSX khi hết hạn bảo hành trong 12 tháng
+                    </label>
+                    <label class="custom-checkbox">
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                        1 đổi 1 VIP 12 tháng: Đổi máy mới tương đương khi có lỗi từ NSX trong 12 tháng
+                    </label>
+                    <label class="custom-checkbox">
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                        Rơi vỡ - Rớt nước: Hỗ trợ 90% chi phí sửa chữa, đổi mới sản phẩm nếu hư hỏng nặng trong 12 tháng
+                    </label>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+    <script>
+        function toggleSelection(button) {
+
+            var buttons = document.querySelectorAll(".price-button");
+            buttons.forEach(function (btn) {
+                btn.classList.remove("selected");
+            });
+
+            button.classList.add("selected");
+        }
+    </script>
+    <script>
+        function toggleSelection(button) {
+            var buttons = document.querySelectorAll(".color-button");
+            buttons.forEach(function (btn) {
+                btn.classList.remove("selected");
+            });
+
+            button.classList.add("selected");
+        }
+    </script>
+    <script src="Details.js"></script>
+</body>
+</html>

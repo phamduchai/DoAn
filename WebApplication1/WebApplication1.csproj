@@ -67,6 +67,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Details.html" />
+    <Content Include="Details.js" />
+    <Content Include="DetailsCSS.css" />
     <Content Include="Footer.html" />
     <Content Include="FooterCSS.css" />
     <Content Include="Global.asax" />
@@ -100,7 +103,9 @@
     <Content Include="IMG_pay\zalopay-logo.jpg" />
     <Content Include="LayoutCSS.css" />
     <Content Include="LayoutCSS2.css" />
+    <Content Include="SelectPhone.js" />
     <Content Include="SliderJVS.js" />
+    <Content Include="test.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
